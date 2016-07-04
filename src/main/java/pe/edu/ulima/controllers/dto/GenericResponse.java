@@ -9,7 +9,7 @@ public class GenericResponse {
 
     public GenericResponse(String msgStatus, String msgError) {
         this.msgStatus = msgStatus;
-        this.msgError = msgError;
+        this.msgError = msgError; 
     }
 
     public String getMsgStatus() {
